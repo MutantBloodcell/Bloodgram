@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto">
 
-    <application android:name="org.telegram.messenger.ApplicationLoaderImpl" tools:replace="name">
+    <application android:name="org.mutantbloodcell.bloodgram.ApplicationLoaderImpl" tools:replace="name">
         <service
             android:name="org.mutantbloodcell.bloodgram.GoogleVoiceClientService"
             android:exported="true"
