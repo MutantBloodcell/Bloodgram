@@ -1,4 +1,4 @@
-name: Build Telegram Android APK
+name: Build Bloodgram APK
 
 on:
   push:
