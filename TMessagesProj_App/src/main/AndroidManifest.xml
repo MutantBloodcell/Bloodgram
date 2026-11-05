@@ -5,12 +5,12 @@
 
     <application android:name="org.telegram.messenger.ApplicationLoaderImpl" tools:replace="name">
         <service
-            android:name="org.telegram.messenger.GoogleVoiceClientService"
+            android:name="org.mutantbloodcell.bloodgram.GoogleVoiceClientService"
             android:exported="true"
             android:foregroundServiceType="dataSync"
         />
         <activity
-            android:name="org.telegram.messenger.GoogleVoiceClientActivity"
+            android:name="org.mutantbloodcell.bloodgram.GoogleVoiceClientActivity"
             android:exported="true"
         >
             <intent-filter>
